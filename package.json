@@ -2,7 +2,8 @@
   "name": "hardhat-project",
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.ts --network hardhat",
-    "test:Vault": "npx hardhat test test/Vault.test.ts --network hardhat"
+    "test:Vault": "npx hardhat test test/Vault.test.ts --network hardhat",
+    "test:Bank": "npx hardhat test test/Bank.test.ts --network hardhat"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
